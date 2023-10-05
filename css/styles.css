@@ -12,6 +12,7 @@
 body {
   font-family: "roboto", sans serif;
   color: var(--NAVY-BLUE);
+  max-width: max-content;
 }
 /*end of body */
 
@@ -41,6 +42,13 @@ nav .logo {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.hdr-link {
+  gap: 40px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
 .hdr .contact {
   font-weight: 400;
   padding-top: 0%;
@@ -80,7 +88,7 @@ nav .logo {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.64px;
-
+  padding: 16px 32px;
 }
 .hero .button:hover,
 .hero .button:focus {
@@ -110,6 +118,9 @@ nav .logo {
 /* sections  */
 .navy-bg {
   background-color: var(--NAVY-BLUE);
+  padding-top: 188px;
+  padding-bottom: 292px;
+  text-align: center;
 }
 .hero h1 {
   color: var(--WHITE);
@@ -128,6 +139,7 @@ nav .logo {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
 /* end of sections  */
 
 /* footer */
@@ -135,6 +147,10 @@ nav .logo {
   color: var(--CLOUD);
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding-top: 140px;
+  padding-left: 156px;
+  padding-bottom: 100px;
+  text-align: justify;
 }
 .footer .logo {
   color: var(--CLOUD);
