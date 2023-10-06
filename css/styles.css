@@ -1,5 +1,5 @@
 * {
-  margin: 0;.fltr-btn-item.active
+  margin: 0;
   padding: 0;
   /* box-sizing: content-box; */
 }
@@ -39,7 +39,6 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
 
 .title {
   color: var(--NAVY-BLUE);
@@ -83,11 +82,6 @@ button {
 
 .header-text-logo-studio{
   color:var(--NAVY-BLUE)
-}
-
-.header-text-logo-studio:hover, 
-.header-text-logo-studio:focus {
-  color: var(--IRIS);
 }
 
 .main-header-container {
@@ -272,12 +266,6 @@ justify-content: flex-start;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
-.footer-text-logo-studio:hover, 
-.footer-text-logo-studio:focus {
-  color: var(--IRIS);
-}
-
 
 .footer-text {
   color: var(--CLOUD);
